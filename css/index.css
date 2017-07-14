@@ -1,4 +1,4 @@
-/* ::::: http://s.happymmall.com/mmall_fe/dist/css/common.css?9dd65f513c150dbd6188 ::::: */
+
 
 * {
     margin: 0px;
@@ -146,14 +146,12 @@ img {
 }
 
 
-
-
-/*@font-face {
+@font-face {
     font-family: "FontAwesome";
     font-style: normal;
     font-weight: 400;
     src: url('fontawesome-webfont.eot') format("embedded-opentype"), url('fontawesome-webfont.woff2') format("woff2"), url('fontawesome-webfont.woff') format("woff"), url('fontawesome-webfont.ttf') format("truetype"), url('fontawesome-webfont.svg') format("svg");
-}*/
+}
 
 .fa {
     display: inline-block;
@@ -2984,7 +2982,7 @@ img {
 }
 
 
-/* ::::: http://s.happymmall.com/mmall_fe/dist/css/index.css?9dd65f513c150dbd6188 ::::: */
+
 
 .cate-wrap {
     float: left;
@@ -3020,6 +3018,7 @@ img {
     cursor: pointer;
 }
 
+
 .banner-wrap {
     float: left;
     position: relative;
@@ -3030,10 +3029,20 @@ img {
 
 .banner-wrap .banner {
     position: relative;
-    overflow: auto;
+
+    width: 830px;
+    height: 370px;
+}
+
+.banner-wrap .banner ul {
+    width: 500%;
+    position: relative;
+    left: -100%;
+    height: 370px;
 }
 
 .banner-wrap .banner li {
+    width: 20%;
     list-style: outside none none;
 }
 
@@ -3063,11 +3072,11 @@ img {
     background: rgba(0, 0, 0, 0.5) none repeat scroll 0% 0%;
 }
 
-.banner-wrap .banner-arrow .prev {
+#prev {
     left: 0px;
 }
 
-.banner-wrap .banner-arrow .next {
+#next {
     right: 0px;
 }
 
