@@ -145,38 +145,7 @@ img {
     visibility: hidden;
 }
 
-.notice-con {
-    background: rgb(198, 0, 35) none repeat scroll 0% 0%;
-    padding: 5px 0px;
-    line-height: 30px;
-}
 
-.notice-con .notice {
-    font-size: 14px;
-    color: rgb(238, 238, 238);
-    font-weight: 700;
-    text-align: center;
-}
-
-.notice-con .notice .mail-link {
-    color: rgb(238, 238, 238);
-    text-decoration: none;
-}
-
-.notice-con .notice .mail-link:hover {
-    text-decoration: underline;
-}
-
-.notice-con .notice .notice-link {
-    color: rgb(255, 255, 255);
-    padding: 5px;
-    text-decoration: none;
-    background: rgb(251, 85, 5) none repeat scroll 0% 0%;
-}
-
-.notice-con .notice .notice-link:hover {
-    background: rgb(255, 132, 73) none repeat scroll 0% 0%;
-}
 
 
 /*@font-face {
